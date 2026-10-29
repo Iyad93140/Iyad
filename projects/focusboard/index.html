@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FocusBoard — Mes tâches</title><link rel="stylesheet" href="style.css"></head>
+<body><main><header><p class="eyebrow">ATELIER JAVASCRIPT</p><h1>Un peu de clarté.<br>Une tâche à la fois.</h1><p>Un tableau simple pour faire avancer tes projets.</p></header>
+<form id="add-form"><label for="title">Nouvelle tâche</label><div class="input-row"><input id="title" required maxlength="120" placeholder="Ex. préparer mon entretien"><button>Ajouter</button></div></form>
+<div class="toolbar"><div><label for="search">Rechercher</label><input id="search" type="search" placeholder="Filtrer les tâches"></div><p id="count"></p></div>
+<p id="message" role="status" aria-live="polite"></p><div id="board" class="board"></div>
+<footer>Données enregistrées dans ce navigateur. Pas de compte, pas de synchronisation.</footer></main><script type="module" src="app.mjs"></script></body></html>
