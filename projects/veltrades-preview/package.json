@@ -1,0 +1,9 @@
+{
+  "name": "veltrades-replay-preview",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Petit extrait open source du prototype Veltrades : horaires et agrégation OHLC.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node tests/replay-core.cjs", "demo": "node example.cjs" }
+}

@@ -13,6 +13,10 @@ Quatre projets pédagogiques exécutables, pour travailler le développement web
 
 Chaque dossier contient son code, un README, des exemples et des tests. Aucun service payant ni clé API n’est requis. Python 3.11+ et Node.js 20+ suffisent pour exécuter tous les contrôles.
 
+## Veltrades — projet personnel en cours
+
+Un [aperçu open source du module de replay](projects/veltrades-preview) expose une petite partie du prototype réel : créneaux horaires, fuseaux et agrégation OHLC. Sa licence MIT est limitée à ce dossier ; le reste de Veltrades n’est pas publié ici.
+
 ## Vérification globale
 
 Depuis la racine du dépôt :
@@ -22,6 +26,7 @@ python3 -m unittest discover -s projects/stagetrack -p 'test_*.py' -v
 python3 -m unittest discover -s projects/salesreport -p 'test_*.py' -v
 python3 -m unittest discover -s projects/campus-library -p 'test_*.py' -v
 node --test projects/focusboard/test_core.mjs
+node projects/veltrades-preview/tests/replay-core.cjs
 ```
 
 ## Pour aller plus loin
